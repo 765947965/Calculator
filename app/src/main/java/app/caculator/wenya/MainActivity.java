@@ -1,6 +1,5 @@
 package app.caculator.wenya;
 
-import android.app.Activity;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText etMiYao, etMingWen, etMiWen, etMiMaOne, etMiMaTwo, etMiMaThree;
     private Button btCreate, btCopy;
     private String mMiWenStrNHTML;
